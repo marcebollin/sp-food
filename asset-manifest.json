@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sp-food/static/css/main.fcad471a.css",
+    "main.js": "/sp-food/static/js/main.ee147e55.js",
+    "static/media/pizza-principal-cover-medium.png": "/sp-food/static/media/pizza-principal-cover-medium.8e3933b6f4785755eef2.png",
+    "static/media/pizza-principal-cover-small.png": "/sp-food/static/media/pizza-principal-cover-small.dbf1557dff76a0a71353.png",
+    "index.html": "/sp-food/index.html",
+    "main.fcad471a.css.map": "/sp-food/static/css/main.fcad471a.css.map",
+    "main.ee147e55.js.map": "/sp-food/static/js/main.ee147e55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcad471a.css",
+    "static/js/main.ee147e55.js"
+  ]
+}
