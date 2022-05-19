@@ -1,0 +1,38 @@
+.order-box {
+
+  position: fixed;
+  cursor: pointer;
+  left: calc(100% - 30px);
+  transform: translateX(-100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--dark-color);
+  border-radius: 10px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-icon {
+  background-size: 50px;
+  background-image: url('../assets/icons/pizza-box.png');
+  width: 70px;
+  height: 70px;
+}
+
+.close-icon {
+  background-image: url('../assets/icons/close-icon.png');
+  width: 50px;
+  height: 50px;
+  background-size: 30px;
+}
+
+.order-box span {
+  font-size: 1.1rem;
+  color: white;
+  font-family: var(--common-sans-serif);
+  background-color: var(--dark-color);
+  padding: 0 1px;
+  border-radius: 50%;
+}

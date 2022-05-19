@@ -1,0 +1,87 @@
+.card {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: 290px 1fr 50px / 1fr;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 3px 6px 14px 3px rgba(0,0,0, .4);
+}
+
+.card header {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--orange);
+}
+
+.card img {
+  width: 80%;
+}
+
+.card > section {
+  max-height: 220px;
+  display: grid;
+  grid-template: auto auto 1fr / 1fr;
+  flex-direction: column;
+  padding: 15px 15px 10px 15px;
+}
+
+.card h2, .card h3 {
+  font-family: var(--title-sans-serif);
+  letter-spacing: 2px;
+}
+
+.card h2 {
+  color: var(--dark-color);
+  opacity: 0.9;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.card h3 {
+  color: var(--lightest-dark-color);
+  font-size: 0.8rem;
+  padding-bottom: 5px;
+}
+
+.card--element-size {
+  color: var(--dark-color);
+  opacity: 0.9;
+}
+
+.card p {
+  font-family: var(--common-sans-serif);
+  color: var(--gray);
+  line-height: 1.3rem;
+  font-size: 0.9rem;
+  align-self: flex-end;
+}
+
+.card > footer {
+  padding: 15px;
+  padding-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card--price {
+  font-size: 1.5rem;
+  font-family: var(--common-sans-serif);
+  font-weight: 700;
+  color: var(--orange);
+}
+
+.card--add-icon {
+  background-color: var(--orange);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url('../assets/icons/plus-icon.png');
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}

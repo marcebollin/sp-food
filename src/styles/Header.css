@@ -1,0 +1,13 @@
+.principal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px 30px;
+  height: 80px;
+  position: relative;
+}
+
+.principal-header .logo {
+  width: 80px;
+}

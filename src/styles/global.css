@@ -1,0 +1,30 @@
+:root {
+  /* Relative colors */
+  --dark-color: #3A3845;
+  --lightest-dark-color: #826F66;
+  --darkest-light-color: #C69B7B;
+  --light-color: #F7CCAC;
+  
+  /* Base colors */
+  --white: #F3F0D7;
+  --gray: rgba(0,0,0, 0.7);
+
+  /* Branch colors */
+  --orange: #C84B31;
+
+  /* Fonts */
+  --serif-font: 'Merriweather', serif;
+  --title-sans-serif: 'Fjalla One', sans-serif;
+  --common-sans-serif: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--dark-color);
+}
